@@ -13,9 +13,13 @@ python manage.py runserver
 '''
 !Verificar se está no mesmo diretório para execução do insert.py, insert2.py. (É necessário os inserts para a aplicação funcionar.)
 > (on console):
+
 > python .\insert.py
+
 > python .\insert2.py
+
 > (expected):
+
 > Inserção de dados concluída com sucesso.
 '''
 ## OBSERVAÇÕES:
