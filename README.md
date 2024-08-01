@@ -31,7 +31,8 @@ ex: crud-with-django/manage.py
 '''
 Nesse Projeto algumas funções são exclusivas para usuários staffs (superuser), como: realizar_venda, cadastrar_cliente, contact_delete, contact_update.
 (on console):
-python manage.py createsuperuser
+
+> python manage.py createsuperuser
 
 > Username: (Sua escolha)
 
