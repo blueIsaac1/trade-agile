@@ -1,7 +1,7 @@
 ﻿# trade-agile
 ## INSTALAÇÃO:
 '''
-pip install -r reqg.txt
+pip install -r req.txt
 '''
 ## INICIALIZAÇÃO:
 '''
