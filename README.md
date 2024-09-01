@@ -1,46 +1,70 @@
-﻿# trade-agile
-## INSTALAÇÃO:
-'''
-pip install -r req.txt
-'''
-## INICIALIZAÇÃO:
-'''
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
-'''
-## INSERTS NO DB.SQLITE3:   
-'''
-!Verificar se está no mesmo diretório para execução do insert.py, insert2.py. (É necessário os inserts para a aplicação funcionar.)
-> (on console):
+# Projeto Django com SQLite3
 
-> python .\insert.py
+Bem-vindo ao projeto Django com SQLite3! Este é um projeto de exemplo que utiliza o Django, um framework web de alto nível para Python, e o SQLite3, um banco de dados leve e integrado.
 
-> python .\insert2.py
+## Sumário
 
-> (expected):
+- [Descrição](#descrição)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Uso](#uso)
 
-> Inserção de dados concluída com sucesso.
-'''
-## OBSERVAÇÕES:
-'''
-certifique-se de estar no mesmo diretório do manage.py.
-ex: crud-with-django/manage.py
-'''
-## CRIAÇÃO DO SUPER USER:
-'''
-Nesse Projeto algumas funções são exclusivas para usuários staffs (superuser), como: realizar_venda, cadastrar_cliente, contact_delete, contact_update.
-(on console):
+## Descrição
 
-> python manage.py createsuperuser
+Este projeto é uma aplicação web simples desenvolvida com o framework Django e utiliza o banco de dados SQLite3 para armazenar dados. O objetivo é demonstrar a configuração básica de um projeto Django com uma configuração padrão do SQLite.
 
-> Username: (Sua escolha)
+## Pré-requisitos
 
-> Email address: (Sua escolha)
+Antes de começar, certifique-se de ter o Python e o pip instalados em sua máquina. Recomenda-se também criar um ambiente virtual para gerenciar as dependências do projeto.
 
-> Password: (Sua escolha)
-'''
-## IMAGENS:
+## Instalação
+
+Siga os passos abaixo para configurar o projeto em seu ambiente local:
+
+1. **Clone o repositório:**
+
+    ```bash
+    git clone https://github.com/blueIsaac1/trade-agile.git
+    cd seu-repositorio
+    ```
+
+2. **Crie e ative um ambiente virtual:**
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate   # Para Linux/MacOS
+    venv\Scripts\activate      # Para Windows
+    ```
+
+3. **Instale as dependências:**
+
+    ```bash
+    pip install -r req.txt
+    ```
+
+4. **Aplique as migrações do banco de dados:**
+
+    ```bash
+    python manage.py migrate
+    ```
+
+5. **Crie um superusuário para acessar o painel administrativo (opcional):**
+
+    ```bash
+    python manage.py createsuperuser
+    ```
+
+6. **Inicie o servidor de desenvolvimento:**
+
+    ```bash
+    python manage.py runserver
+    ```
+
+7. **Acesse a aplicação:**
+
+    Abra seu navegador e vá para `http://127.0.0.1:8000/`. Para acessar o painel administrativo, vá para `http://127.0.0.1:8000/admin/` e faça login com as credenciais do superusuário que você criou.
+
+8. **Imagens:**
 1:
 ![f83a4b7f-2d22-4a68-abc7-5e9e0a3f1fdc](https://github.com/user-attachments/assets/b05857e6-e439-445b-9a12-070d40480b51)
 2:
