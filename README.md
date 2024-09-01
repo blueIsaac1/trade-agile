@@ -63,7 +63,7 @@ Siga os passos abaixo para configurar o projeto em seu ambiente local:
 7. **Acesse a aplicação:**
 
     Abra seu navegador e vá para `http://127.0.0.1:8000/`. Para acessar o painel administrativo, vá para `http://127.0.0.1:8000/admin/` e faça login com as credenciais do superusuário que você criou.
-
+## Uso
 8. **Imagens:**
 1:
 ![f83a4b7f-2d22-4a68-abc7-5e9e0a3f1fdc](https://github.com/user-attachments/assets/b05857e6-e439-445b-9a12-070d40480b51)
